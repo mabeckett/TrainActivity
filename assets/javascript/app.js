@@ -26,10 +26,10 @@ $('#addTrainBtn').click(function(e) {
 	// Uploads train data to the database
 	database.ref().push(addTrain);
 	// Logs everything to console
-	console.log(train.name);
-	console.log(train.location);
-	console.log(train.start);
-	console.log(train.rate);
+	console.log(addTrain.name);
+	console.log(addTrain.location);
+	console.log(addTrain.start);
+	console.log(addTrain.rate);
 	// Clears all of the text-boxes
 	$('#trainInput').val("");
 	$('#destinationInput').val("");
