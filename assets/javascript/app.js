@@ -24,7 +24,7 @@ $('#addTrainBtn').click(function(e) {
 		rate: frequency
 	};
 	// Uploads train data to the database
-	database.ref().push(train);
+	database.ref().push(addTrain);
 	// Logs everything to console
 	console.log(train.name);
 	console.log(train.location);
